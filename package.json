@@ -1,0 +1,25 @@
+{
+  "name": "mousepaint",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ikasoba000/twind-preact": "^0.1.1",
+    "@popperjs/core": "^2.11.8",
+    "@twind/core": "^1.1.3",
+    "@twind/preset-autoprefix": "^1.0.7",
+    "@twind/preset-ext": "^1.0.7",
+    "@twind/preset-tailwind": "^1.1.4",
+    "preact": "^10.19.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.6.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
+}
